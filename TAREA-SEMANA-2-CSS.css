@@ -10,9 +10,19 @@
     --button-color:#e76838;
     --button-color-2:#fa4848;
     --box-shadow: #568564;
+    --box-shadow-light: #db9c12;
     --background-color:#f0c15a;
+    --background-light-color:#fcf7ed;
 }
-
+.header{
+    z-index: 100%;
+    top: 0;
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color:var( --background-light-color);
+    box-sizing: border-box;
+    box-shadow: 0 0.5rem 0.5rem 0 var(--box-shadow-light);
+}
 .home{
     background-color: rgb(255, 156, 85);
 }
