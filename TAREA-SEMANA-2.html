@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plantify</title>
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="shortcut_icon" href="/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="./TAREA-SEMANA-2-CSS.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   </head>
   <body class="body">
     <header class="header">
@@ -109,15 +110,62 @@
         </div>
         <button class="button_shop">Download our Catalog</button>
       </section>
-      <section class="contact" id="contact">
-        <div class="contact_img_container">
-          <img class="contact_img" src="" />
-        </div>
-        <div class="contact_info_container">
-          <h2 class="contact_info_title">Contact Us</h2>
-          <button class="button_contact_us">Send</button>
-        </div>
-      </section>
+      <div class="contact_container">
+        <section class="contact" id="contact">
+          <div class="contact_img_container">
+            <img class="contact_img" src="" />
+          </div>
+          <div class="contact_info_container">
+            <h2 class="contact_info_title">Contact Us</h2>
+            <div class="contact_form_container">
+              <input
+                type="text"
+                name="name"
+                placeholder="Nombre"
+                class="contact_form_input"
+              />
+            </div>
+            <textarea
+              name="message"
+              placeholder="Send us a message! We'd love to hear from you"
+              class="contact_form_textarea"
+            ></textarea>
+            <button class="button_contact_us">Send</button>
+          </div>
+        </section>
+      </div>
+      <nav class="footer_nav">
+        <ul class="footer_nav_list">
+          <li class="footer_nav_icon">
+            <a
+              href="https://www.linkedin.com/in/victoria-lavarello-codevex/"
+              class="footer_nav_icon_link"
+            ><i class="bi bi-linkedin"></i></a>
+          </li>
+          <li class="footer_nav_icon">
+            <a
+              href="https://www.youtube.com/c/VictoriaLavarello/featured"
+              class="footer_nav_icon_link"
+            ><i class="bi bi-youtube"></i></a>
+          </li>
+          <li class="footer_nav_icon">
+            <a
+              href="https://www.facebook.com/otherside2016"
+              class="footer_nav_icon_link"
+            ><i class="bi bi-facebook"></i></a>
+            <li class="footer_nav_icon">
+            <a
+              href="https://api.whatsapp.com/send?phone=51992150051"
+              class="footer_nav_icon_link"
+            ><i class="bi bi-whatsapp"></i></a>
+            <li class="footer_nav_icon">
+            <a
+              href="mailto:vickymoon1509@gmail.com"
+              class="footer_nav_icon_link"
+            ><i class="bi bi-envelope"></i></a>
+          </li>
+        </ul>
+      </nav>
     </main>
   </body>
 </html>
