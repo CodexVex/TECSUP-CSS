@@ -1,4 +1,17 @@
-
+:root{
+    scroll-behavior: smooth;
+    --text-color: #001f3f;
+    --subtitle-color: #2f3e75;
+    --light-subtitle-color:#f3e595;
+    --theme-color: #64a36f;
+    --highlight-color: #ffe121;
+    --light-text-color: #d0efb5;
+    --border-color:#4ba54d;
+    --button-color:#e76838;
+    --button-color-2:#fa4848;
+    --box-shadow: #568564;
+    --background-color:#f0c15a;
+}
 
 .home{
     background-color: rgb(255, 156, 85);
