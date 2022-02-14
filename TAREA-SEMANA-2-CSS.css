@@ -23,6 +23,11 @@
     box-sizing: border-box;
     box-shadow: 0 0.5rem 0.5rem 0 var(--box-shadow-light);
 }
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .home{
     background-color: rgb(255, 156, 85);
 }
