@@ -114,17 +114,17 @@
   border-radius: 0.6rem;
   font-size: 1.5rem;
   padding: 0.5rem 1rem;
-  transition: all 0.1s ease-in-out; 
+  transition: all 0.1s ease-in-out;
 }
 
 .button_home:hover::after {
- content:"🛒";
+  content: "🛒";
 }
 .button_home:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px var(--box-shadow);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px var(--box-shadow);
 }
-.banner_image_container{
+.banner_image_container {
   display: flex;
   width: 20rem;
   margin: auto;
@@ -132,21 +132,21 @@
 .banner_image_animated {
   width: 100%;
 }
-.section_trees{
+.section_trees {
   width: 100%;
 }
-.container_trees{
+.container_trees {
   display: flex;
   width: 100%;
 }
-.svg-separator-sep8{
+.svg-separator-sep8 {
   width: 100%;
 }
-.about{
-background-color: var(--theme-color);
-color: var(--text-color);
+.about {
+  background-color: var(--theme-color);
+  color: var(--text-color);
 }
-.about_container{
+.about_container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,21 +155,21 @@ color: var(--text-color);
   padding: 0.2rem 1.5rem 1.5rem 1.5rem;
   background-color: var(--theme-color);
 }
-.about_title{
-  font-family: 'PT Serif', serif;
+.about_title {
+  font-family: "PT Serif", serif;
   font-size: 1.5rem;
   text-align: center;
   margin: 0;
 }
-.about_icons_container{
-   display: flex;
+.about_icons_container {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   padding: 0 1rem;
 }
-.about_icon_container{
+.about_icon_container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,10 +177,10 @@ color: var(--text-color);
   gap: 0.5rem;
   padding: 0 1rem;
 }
-.about_icon{
-  width:50%
+.about_icon {
+  width: 50%;
 }
-.about_info_container{
+.about_info_container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -188,14 +188,18 @@ color: var(--text-color);
   gap: 0.5rem;
   padding: 0 1rem;
 }
-.about_icon_title{}
-.about_icon_content{}
-.button_about{}
+.about_icon_title {
+}
+.about_icon_content {
+}
+.button_about {
+}
 
-.shop{
+.shop {
 }
-.shop_title{}
-.shop_imgs_container{
+.shop_title {
+}
+.shop_imgs_container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,7 +207,7 @@ color: var(--text-color);
   gap: 0.5rem;
   padding: 0 1rem;
 }
-.shop_img_container{
+.shop_img_container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -211,6 +215,58 @@ color: var(--text-color);
   gap: 0.5rem;
   padding: 0 1rem;
 }
-.shop_img{
+.shop_img {
   width: 100%;
+}
+.button_shop {
+  padding: 1rem;
+}
+.section_wave {
+  width: 100%;
+}
+.container_wave {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.container_wave svg {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 120px;
+}
+
+.container_wave .shape-fill {
+  fill: #e4ab31;
+}
+.contact {
+  background-image: url(https://i0.wp.com/wallpapersfortech.com/wp-content/uploads/2021/03/792dad4.png?resize=928%2C1482&ssl=1);
+}
+.footer_nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+.footer_nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+.footer_nav_icon {
+  list-style: none;
+}
+.footer_nav_title {
+  font-weight: 400;
+  font-size: 0.6rem;
+  text-align: center;
+  margin: 0;
 }
