@@ -1,8 +1,9 @@
 :root {
   scroll-behavior: smooth;
-  --text-color: #001f3f;
+  --text-color: #003f2f;
   --light-text-color: #d0efb5;
-  --subtitle-color: #2f3e75;
+  --title-color: #011b01;
+  --subtitle-color: #183f20;
   --light-subtitle-color: #f3e595;
   --theme-color: #64a36f;
   --highlight-color: #ffe121;
@@ -13,7 +14,10 @@
   --box-shadow-light: #db9c12;
   --background-color: #f0c15a;
   --background-light-color: #fcf7ed;
-  --link-color:#185018;
+  --link-color: #185018;
+}
+.body {
+  background-color: var(--background-color);
 }
 .header {
   z-index: 100;
@@ -37,24 +41,232 @@
 .header_nav__logo {
   width: 100%;
 }
-.header_nav__link_list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+.header_nav__link_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
-.header_nav__link_item{
-    list-style: none;
+.header_nav__link_item {
+  list-style: none;
 }
-.header-nav__link{
-    text-decoration: none;
-    color:var(--link-color);
-    font-weight: 600;
-    font-family: 'PT Serif', serif;
+.header-nav__link {
+  text-decoration: none;
+  color: var(--link-color);
+  font-weight: 600;
+  font-family: "PT Serif", serif;
+}
+.main {
+  background-color: var(--background-color);
+  width: 100%;
 }
 .home {
-  background-color: rgb(255, 156, 85);
+  padding: 2rem 0;
 }
-.banner_image {
-  height: 512px;
+.home_container {
+  text-align: center;
+  gap: 1.5rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.home_title_subtitle_container {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.home_title {
+  color: var(--title-color);
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+.home_subtitle {
+  color: var(--subtitle-color);
+  margin: 0;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+}
+.home_info_container {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_info {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 500;
+  color: var(--text-color);
+}
+.button_home_container {
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button_home {
+  display: block;
+  background-color: var(--border-color);
+  border: 0.1rem solid var(--link-color);
+  color: var(--light-text-color);
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.button_home:hover::after {
+  content: "🛒";
+}
+.button_home:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px var(--box-shadow);
+}
+.banner_image_container {
+  display: flex;
+  width: 20rem;
+  margin: auto;
+}
+.banner_image_animated {
+  width: 100%;
+}
+.section_trees {
+  width: 100%;
+}
+.container_trees {
+  display: flex;
+  width: 100%;
+}
+.svg-separator-sep8 {
+  width: 100%;
+}
+.about {
+  background-color: var(--theme-color);
+  color: var(--text-color);
+}
+.about_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.2rem 1.5rem 1.5rem 1.5rem;
+  background-color: var(--theme-color);
+}
+.about_title {
+  font-family: "PT Serif", serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+.about_icons_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+.about_icon_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+.about_icon {
+  width: 50%;
+}
+.about_info_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+.about_icon_title {
+}
+.about_icon_content {
+}
+.button_about {
+}
+
+.shop {
+}
+.shop_title {
+}
+.shop_imgs_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+.shop_img_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+.shop_img {
+  width: 100%;
+}
+.button_shop {
+  padding: 1rem;
+}
+.section_wave {
+  width: 100%;
+}
+.container_wave {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.container_wave svg {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 120px;
+}
+
+.container_wave .shape-fill {
+  fill: #e4ab31;
+}
+.contact {
+  background-image: url(https://i0.wp.com/wallpapersfortech.com/wp-content/uploads/2021/03/792dad4.png?resize=928%2C1482&ssl=1);
+}
+.footer_nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 0;
+}
+.footer_nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+.footer_nav_icon {
+  list-style: none;
+}
+.footer_nav_title {
+  font-weight: 400;
+  font-size: 0.6rem;
+  text-align: center;
+  margin: 0;
 }
