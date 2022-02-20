@@ -151,8 +151,8 @@ color: var(--text-color);
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
-  padding: 0 2rem;
+  gap: 1rem;
+  padding: 0.2rem 1.5rem 1.5rem 1.5rem;
   background-color: var(--theme-color);
 }
 .about_title{
@@ -192,3 +192,25 @@ color: var(--text-color);
 .about_icon_content{}
 .button_about{}
 
+.shop{
+}
+.shop_title{}
+.shop_imgs_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+.shop_img_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+.shop_img{
+  width: 100%;
+}
