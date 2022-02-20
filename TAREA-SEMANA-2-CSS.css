@@ -15,7 +15,7 @@
   --background-light-color: #fcf7ed;
   --link-color: #185018;
 }
-.body{
+.body {
   background-color: var(--background-color);
 }
 .header {
@@ -55,9 +55,50 @@
   font-weight: 600;
   font-family: "PT Serif", serif;
 }
-.home {
-  
+.main {
+  background-color: var(--background-color);
+  width: 100%;
 }
+.home {
+  padding: 2rem 0;
+}
+.home_container {
+  text-align: center;
+  gap: 1.5rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.home_title_subtitle_container {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.home_title {
+  color: var(--text-color);
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+.home_subtitle {
+  color: var(--subtitle-color);
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+ font-weight: lighter;
+}
+.home_info_container{
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_info{
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+
 .banner_image {
   height: 512px;
 }
