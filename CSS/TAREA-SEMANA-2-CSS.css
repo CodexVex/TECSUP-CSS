@@ -125,7 +125,10 @@
 .button_home:hover::after {
   content: "🛒";
 }
-.button_home:hover {
+.button_home:hover,
+.button_about:hover,
+.button_shop:hover,
+.button_contact_us:hover{
   transform: translateY(-3px);
   box-shadow: 0 10px 20px var(--box-shadow);
 }
