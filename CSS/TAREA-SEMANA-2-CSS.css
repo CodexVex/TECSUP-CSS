@@ -16,6 +16,19 @@
   --background-light-color: #fcf7ed;
   --link-color: #185018;
 }
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1.15);
+  }
+}
 .body {
   background-color: var(--background-color);
 }
@@ -342,4 +355,14 @@ margin: 1rem;
   margin: 0;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 300;
+}
+@media (min-width: 800px){
+.shop_container
+.shop_imgs_container{
+  padding: 0;
+}
+.shop_img_container_list{
+  margin: 0;
+  display: flex;
+}
 }
