@@ -104,7 +104,8 @@
   align-items: center;
   justify-content: center;
 }
-.button_home {
+.button_home ,
+.button_shop {
   display: block;
   background-color: var(--border-color);
   border: 0.1rem solid var(--link-color);
@@ -156,7 +157,8 @@
   padding: 0.2rem 1.5rem 1.5rem 1.5rem;
   background-color: var(--theme-color);
 }
-.about_title {
+.about_title,
+.shop_title {
   font-family: "PT Serif", serif;
   font-size: 1.5rem;
   text-align: center;
@@ -187,7 +189,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0 1rem;
+  padding: 0 0.1rem;
 }
 .about_icon_title {
 }
@@ -198,7 +200,14 @@
 
 .shop {
 }
-.shop_title {
+
+.shop_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
 }
 .shop_imgs_container {
   display: flex;
@@ -206,18 +215,28 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
-.shop_img_container {
+.shop_img_container_list{
+  padding: 0;
+  margin: 5%;
+}
+
+.shop_img_container_listed_item {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  padding: 0 1rem;
+  padding: 0;
+  margin: auto;
 }
 .shop_img {
   width: 100%;
+  border-radius: 30%;
+}
+.shop_img_title{
+  margin: 0.2rem 0 1.5rem 0;
 }
 .button_shop {
   padding: 1rem;
