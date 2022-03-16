@@ -75,6 +75,9 @@
 }
 .home {
   padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0.5rem;
 }
 .home_container {
   text-align: center;
