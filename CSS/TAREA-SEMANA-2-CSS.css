@@ -74,7 +74,7 @@
   width: 100%;
 }
 .home {
-  padding: 2rem 0;
+  padding: 5rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 0.5rem;
@@ -82,12 +82,12 @@
 .home_container {
   text-align: center;
   gap: 1.5rem;
-  padding: 0 2rem;
+  padding: 0 3rem;
   display: flex;
   flex-direction: column;
 }
 .home_title_subtitle_container {
-  gap: 1rem;
+  gap: 3rem;
   display: flex;
   flex-direction: column;
 }
@@ -147,11 +147,6 @@
 .button_contact_us:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px var(--box-shadow);
-}
-.banner_image_container {
-  display: flex;
-  width: 20rem;
-  margin: auto;
 }
 .banner_image_animated {
   width: 100%;
