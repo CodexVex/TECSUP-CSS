@@ -74,7 +74,7 @@
   width: 100%;
 }
 .home {
-  padding: 5rem 0;
+  padding: 1rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 0.5rem;
@@ -85,6 +85,7 @@
   padding: 0 3rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 .home_title_subtitle_container {
   gap: 3rem;
@@ -114,6 +115,9 @@
   font-weight: 500;
   color: var(--text-color);
   margin: 0.5rem;
+}
+.banner_image{
+  max-height: 400px;
 }
 .button_home_container {
   gap: 1.5rem;
