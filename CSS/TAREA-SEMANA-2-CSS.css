@@ -76,7 +76,7 @@
 .home {
   padding: 1rem 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns:1fr;
   grid-column-gap: 0.5rem;
 }
 .home_container {
@@ -362,6 +362,9 @@
   font-weight: 300;
 }
 @media (min-width: 800px) {
+  .home {
+  grid-template-columns:1fr 1fr;
+}
   .shop_container .shop_imgs_container {
     padding: 0;
   }
